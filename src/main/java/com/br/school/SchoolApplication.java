@@ -1,5 +1,12 @@
 package com.br.school;
 
+import com.br.school.application.student.EnrollStudent;
+import com.br.school.application.student.EnrollStudentDTO;
+import com.br.school.domain.student.CPF;
+import com.br.school.domain.student.Email;
+import com.br.school.domain.student.Student;
+import com.br.school.domain.student.StudentRepository;
+import com.br.school.infrastructure.student.StudentRepositoryInMemory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +14,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SchoolApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SchoolApplication.class, args);
+		String name = "Stephanie Santos";
+		String cpf = "123.456.789-00";
+		String email = "stephanie@gmail.com";
+
+		EnrollStudent enrollStudent = new EnrollStudent(new StudentRepositoryInMemory());
+		enrollStudent.run(new EnrollStudentDTO(name, cpf, email));
+
+		//SpringApplication.run(SchoolApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.br.school.infra;
+package com.br.school.infrastructure.student;
 
 import com.br.school.domain.student.CPF;
 import com.br.school.domain.student.Student;
