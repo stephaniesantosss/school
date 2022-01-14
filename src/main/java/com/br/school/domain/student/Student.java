@@ -20,15 +20,19 @@ public class Student {
         this.telephones.add(new Telephone(ddd, number));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumber();
     }
 
     public String getName() {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getAddress();
+    }
+
+    public List<Telephone> getTelephones() {
+        return telephones;
     }
 }
