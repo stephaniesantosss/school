@@ -6,6 +6,6 @@ import com.br.school.domain.student.Student;
 public class SendEmailIndicationWithJavaEmailClass implements SendApplicationEmail {
     @Override
     public void sendTo(Student indicated) {
-
+        //implementar
     }
 }
