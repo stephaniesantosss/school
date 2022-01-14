@@ -1,4 +1,4 @@
-package com.br.school;
+package com.br.school.domain.student;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

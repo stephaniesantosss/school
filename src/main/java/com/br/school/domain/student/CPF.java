@@ -1,4 +1,4 @@
-package com.br.school;
+package com.br.school.domain.student;
 
 public class CPF {
 

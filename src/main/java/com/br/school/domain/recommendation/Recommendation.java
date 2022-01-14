@@ -1,4 +1,6 @@
-package com.br.school;
+package com.br.school.domain.recommendation;
+
+import com.br.school.domain.student.Student;
 
 import java.time.LocalDateTime;
 
