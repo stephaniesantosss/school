@@ -2,12 +2,7 @@ package com.br.school;
 
 import com.br.school.application.student.EnrollStudent;
 import com.br.school.application.student.EnrollStudentDTO;
-import com.br.school.domain.student.CPF;
-import com.br.school.domain.student.Email;
-import com.br.school.domain.student.Student;
-import com.br.school.domain.student.StudentRepository;
 import com.br.school.infrastructure.student.StudentRepositoryInMemory;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

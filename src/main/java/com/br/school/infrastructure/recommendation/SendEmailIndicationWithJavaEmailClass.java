@@ -1,4 +1,4 @@
-package com.br.school.infrastructure.student.recommendation;
+package com.br.school.infrastructure.recommendation;
 
 import com.br.school.application.recommendation.SendApplicationEmail;
 import com.br.school.domain.student.Student;
